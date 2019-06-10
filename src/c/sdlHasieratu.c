@@ -355,7 +355,7 @@ void musicUnload()
 	if (musika != NULL)
 	{
 		Mix_HaltMusic();
-		Mix_FreeMusic(musika);
+		//Mix_FreeMusic(musika);
 	}
 }
 
@@ -371,10 +371,9 @@ void soundsUnload()
 	soinuKop = 0;
 }
 
-void audioTerminate(void)
+void audioTerminate()
 {
 	Mix_HaltChannel(-1);
 	soundsUnload();
 	musicUnload();
-	Mix_Quit();
 }

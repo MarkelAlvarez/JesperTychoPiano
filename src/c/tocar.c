@@ -95,6 +95,7 @@ void tocar(JOKO_ELEMENTUA menua, int aukera)
 
 	irudiaKendu(pianoa.id);
 	irudiaKendu(pianoa.tocado);
+	audioTerminate();
 	toggleMusic();
 }
 

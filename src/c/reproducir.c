@@ -73,6 +73,7 @@ void erreproduzitu(JOKO_ELEMENTUA menua, int aukera)
 			tekla = ebentuaJasoGertatuBada();
 		}
 		kenduDena(&burua);
+		audioTerminate();
 		toggleMusic();
 		irudiaKendu(pianoa.id);
 		irudiaKendu(pianoa.tocado);
