@@ -123,8 +123,13 @@ void grabatu(JOKO_ELEMENTUA menua, int aukera)
 			kont--;
 		}
 		
+		pantailaGarbitu();
+		irudiakMarraztu();
+		pantailaBerriztu();
+
 		irudiaKendu(pianoa.id);
 		irudiaKendu(pianoa.tocado);
+
 		audioTerminate();
 		toggleMusic();
 	}

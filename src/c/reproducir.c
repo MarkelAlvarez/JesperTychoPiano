@@ -4,7 +4,7 @@ void erreproduzitu(JOKO_ELEMENTUA menua, int aukera)
 {
 	JOKO_ELEMENTUA pianoa;
 	char str[MAX], path[MAX], c = 0;
-	int tekla = 0, boi, posX=0, irten = 0;
+	int tekla = 0, boi, posX = 0, irten = 0;
 	NOTA *burua = NULL;
 	FILE *fitxategia;
 
